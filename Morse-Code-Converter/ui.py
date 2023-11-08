@@ -49,7 +49,7 @@ text = Text(height=10, width=30, borderwidth=1, highlightbackground="black", rel
 #Puts cursor in textbox.
 text.focus()
 #Adds some text to begin with.
-text.insert(END, "Example of multi-line text entry.")
+text.insert(END, "Hello World.")
 #Get's current value in textbox at line 1, character 0
 text.grid(column=0, row=1, pady=20, padx=20, sticky=(W, E))
 
